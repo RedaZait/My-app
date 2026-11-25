@@ -1,0 +1,6 @@
+Validation du mini-TP CRUD
+- TypeScript: commande `tsc --noEmit` sans erreur avec les dependances de base
+  et une declaration temporaire pour AsyncStorage.
+- Service: CREATE, READ ALL, READ BY ID, UPDATE, DELETE testes avec un stockage simule.
+- La vraie bibliotheque AsyncStorage sera installee sur le PC avec `npm.cmd install`.
+- L'application mobile / web n'a pas ete lancee dans cet environnement.

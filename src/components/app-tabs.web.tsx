@@ -28,6 +28,12 @@ export default function AppTabs() {
           <TabTrigger name="test" href="/test" asChild>
             <TabButton>Mot de passe</TabButton>
           </TabTrigger>
+          <TabTrigger name="projects" href="/projects" asChild>
+            <TabButton>Projets</TabButton>
+          </TabTrigger>
+          <TabTrigger name="crud" href="/crud" asChild>
+            <TabButton>CRUD</TabButton>
+          </TabTrigger>
           <TabTrigger name="explore" href="/explore" asChild>
             <TabButton>Explore</TabButton>
           </TabTrigger>
@@ -59,7 +65,7 @@ export function CustomTabList(props: TabListProps) {
     <View {...props} style={styles.tabListContainer}>
       <ThemedView type="backgroundElement" style={styles.innerContainer}>
         <ThemedText type="smallBold" style={styles.brandText}>
-          Expo Starter
+          Mini TP React Native
         </ThemedText>
 
         {props.children}
